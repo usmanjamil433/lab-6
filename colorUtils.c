@@ -56,4 +56,5 @@ int toSepia(int *r, int *g, int *b) {
   *b = round(0.272 * red + 0.534 * green + 0.131 * blue);
   *b = checkSepia(*b);
   return NO_ERROR;
+  
 }
